@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/app_style.css">
+    <title>Products - Barber Shop</title>
+</head>
+
+<body>
+    <header>
+        <div class="custom-box">
+            <h1>
+                <img class="custom-header-img" src="assets/images/acme-technologies-acme.png" alt="logo company">
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="products.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="userName">Name</label>
+            <input type="text" name="userName" id="userName" class="custom-form-dft-input">
+
+            <label for="userEmail">Email</label>
+            <input type="email" name="userEmail" id="userEmail" class="custom-form-dft-input">
+            
+            <label for="userPhoneNumber">Phone Number</label>
+            <input type="text" name="userPhoneNumber" id="userPhoneNumber" class="custom-form-dft-input">
+
+            <label for="userMessage">Message</label>
+            <textarea name="userMessage" id="userMessage" cols="30" rows="10" class="custom-form-dft-input"></textarea>
+
+            <div>
+                <p>How would like to receive our contact?</p>
+                <label for="radio-email">
+                    <input type="radio" name="userContactTypePreference" id="radio-email"> Email
+                </label>
+
+                <label for="radio-phone">
+                    <input type="radio" name="userContactTypePreference" id="radio-phone"> Phone
+                </label>
+            </div>
+
+            <input type="submit" value="Send" class="custom-form-dft-input">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright Bruno Moreno - 2019</p>
+    </footer>
+</body>
+
+</html>

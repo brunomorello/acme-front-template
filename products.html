@@ -3,20 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/app_style.css">
     <title>Products - Barber Shop</title>
 </head>
 <body>
-    <header>
-        <h1>
-            <img src="assets/images/acme-technologies-acme.png" alt="logo company">
-        </h1>
+    <header>        
+        <div class="custom-box">
 
-        <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Contact</li>
-        </ul>
+            <h1>
+                <img class="custom-header-img" src="assets/images/acme-technologies-acme.png" alt="logo company">
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="products.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">About Us</a></li>                
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <main>
+        <ul class="custom-products">
+            <li>
+                <h2>NodeJS</h2>
+                <img src="assets/images/nodejs-logo.png" alt="nodejs logo">
+                <p class="custom-products-description">Write your model using YAML to generate a REST API + NoSQL (mongodb) + Service running on Cloud</p>
+                <p class="custom-products-price">R$ 0,50 per request</p>
+            </li>
+
+            <li>
+                <h2>JAVA</h2>
+                <img src="assets/images/java-logo.png" alt="java logo">
+                <p class="custom-products-description">Write your model using YAML to generate a REST API + NoSQL (mongodb) + Service running on Cloud</p>
+                <p class="custom-products-price">R$ 0,85 per request</p>
+            </li>
+
+            <li>
+                <h2>PHP 7.2</h2>
+                <img src="assets/images/php-logo.png" alt="php logo">
+                <p class="custom-products-description">Write your model using YAML to generate a REST API + NoSQL (mongodb) + Service running on Cloud</p>
+                <p class="custom-products-price">R$ 0,35 per request</p>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright Bruno Moreno - 2019</p>
+    </footer>
 </body>
 </html>

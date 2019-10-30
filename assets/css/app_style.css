@@ -1,0 +1,126 @@
+body {
+    background: #439899;
+}
+
+header {
+    background: #FFCC5F;
+}
+
+header img {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.custom-box {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(67, 152, 153);
+}
+
+nav a:hover {
+    color: #F0533F;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 40px 0;
+}
+
+form label, p {
+    display: block;
+    margin: 15px 0;
+}
+
+.custom-form-dft-input {
+    display: block;
+    margin: 10px 0;
+    font-size: 17px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.custom-products {
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.custom-products img {
+    width: 150px;
+    height: 150px;
+    padding: 5%;
+    margin: 5%;
+}
+
+.custom-products li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #9BD1E5;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.custom-products li:hover {
+    border: 5px solid #F0533F;
+    cursor: pointer;
+}
+
+.custom-products h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.custom-products-description {
+    font-size: 16px;
+}
+
+.custom-products-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {    
+    background: #FFCC5F;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+}
