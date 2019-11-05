@@ -3,57 +3,85 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/app_style.css">
-    <title>Products - Barber Shop</title>
+    <title>Contact - Acme Technologies</title>
 </head>
 
 <body>
     <header>
-        <div class="custom-box">
+        <div class="custom-box-nav">
             <h1>
                 <img class="custom-header-img" src="assets/images/acme-technologies-acme.png" alt="logo company">
             </h1>
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <form>
-            <label for="userName">Name</label>
-            <input type="text" name="userName" id="userName" class="custom-form-dft-input">
-
-            <label for="userEmail">Email</label>
-            <input type="email" name="userEmail" id="userEmail" class="custom-form-dft-input">
-            
-            <label for="userPhoneNumber">Phone Number</label>
-            <input type="text" name="userPhoneNumber" id="userPhoneNumber" class="custom-form-dft-input">
-
-            <label for="userMessage">Message</label>
-            <textarea name="userMessage" id="userMessage" cols="30" rows="10" class="custom-form-dft-input"></textarea>
-
-            <div>
-                <p>How would like to receive our contact?</p>
-                <label for="radio-email">
-                    <input type="radio" name="userContactTypePreference" id="radio-email"> Email
-                </label>
-
-                <label for="radio-phone">
-                    <input type="radio" name="userContactTypePreference" id="radio-phone"> Phone
-                </label>
-            </div>
-
-            <input type="submit" value="Send" class="custom-form-dft-input">
-        </form>
+        <section class="custom-main-data">
+            <form>
+                <fieldset>
+                    <label for="userName">Name</label>
+                    <input type="text" name="userName" id="userName" class="custom-form-dft-input" placeholder="Type your name here" required>
+        
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail" id="userEmail" class="custom-form-dft-input" placeholder="youremail@mail.com" required>
+                    
+                    <label for="userPhoneNumber">Phone Number</label>
+                    <input type="tel" name="userPhoneNumber" id="userPhoneNumber" class="custom-form-dft-input" placeholder="(XX) XXXXX-XXXX" required>
+        
+                    <label for="userMessage">Message</label>
+                    <textarea name="userMessage" id="userMessage" cols="30" rows="10" class="custom-form-dft-input" required></textarea>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>
+                        How would like to receive our contact?
+                    </legend>
+                    <label for="radio-email">
+                        <input type="radio" name="userContactTypePreference" id="radio-email" checked> Email
+                    </label>
+        
+                    <label for="radio-phone">
+                        <input type="radio" name="userContactTypePreference" id="radio-phone"> Phone
+                    </label>
+                </fieldset>
+    
+                <input type="submit" value="Send" class="custom-form-dft-btn">
+            </form>
+    
+            <table class="custom-table-primary">
+                <thead>
+                    <tr>
+                        <th>Team Members</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>Bruno Moreno</td>
+                    </tr>
+                    <tr>
+                        <td>Moreno Bruno</td>
+                    </tr>
+                </tbody>
+    
+                <tfoot>
+                    <td></td>
+                </tfoot>
+            </table>
+        </section>        
     </main>
 
     <footer>
